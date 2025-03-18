@@ -1,5 +1,4 @@
 with open('SecretMessage.txt', 'r',encoding='utf-8' ) as file:
-    # Lê o conteúdo do arquivo
     secret_message = file.read()
 
 
@@ -11,7 +10,7 @@ with open('dicionario.txt', 'r', encoding='utf-8') as file:
 caracteres = []
 for i in range(65, 91):
     char = chr(i)
-    caracteres.append(char)# Converte o código ASCII para o caractere correspondente
+    caracteres.append(char)
 caracteres_especiais = ['.',',',';','!','?','À','Á','Ã','Â','É','Ê','Í','Ó','Õ','Ô','Ú','Ü','Ç']
 caracteres.extend(caracteres_especiais)
 print(caracteres)
@@ -24,7 +23,7 @@ def cifrar_mensagem(secret_message,codigo):
             nova_posicao = (posicao + codigo)% len(caracteres)
             resultado.append(caracteres[nova_posicao])
         else:
-            # Caso o caractere não seja válido (não está na lista de caracteres), adiciona-o sem alteração
+           
             resultado.append(letra)
 
 
@@ -34,7 +33,7 @@ contador_max = 0
 mensagem_decifrada = ""
 
 
-for codigo in range(44):  # De 0 a 43
+for codigo in range(44):  
     mensagem_cifrada = cifrar_mensagem(secret_message, codigo)
     print(f"Mensagem com deslocamento {codigo}: {mensagem_cifrada}")
     mensagem_final = mensagem_cifrada.split('#')
