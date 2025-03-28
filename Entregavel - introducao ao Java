@@ -1,0 +1,55 @@
+Java: Histórico, Desenvolvimento e Mercado de Trabalho
+Parte 1 - Histórico e Evolução do Java
+1. Criação do Java e seus Criadores
+O Java foi criado em 1995 por uma equipe da Sun Microsystems, liderada por James Gosling, com a colaboração de Mike Sheridan e Patrick Naughton. Inicialmente, o projeto se chamava Oak, mas foi renomeado para Java antes do lançamento oficial.
+2. Empresa Responsável pelo Java Antes e Depois de 2010
+Antes de 2010, o Java era mantido pela Sun Microsystems. Após 2010, a Oracle Corporation adquiriu a Sun Microsystems e assumiu o desenvolvimento e manutenção do Java.
+3. Objetivo Principal do Java e seu Impacto na Programação Moderna
+O principal objetivo do Java era criar uma linguagem portátil, segura e eficiente, baseada no conceito 'Write Once, Run Anywhere' (Escreva uma vez, execute em qualquer lugar). Isso foi possível graças à Java Virtual Machine (JVM), que permite executar código Java em diferentes sistemas operacionais.
+4. Principais Versões do Java e Mudanças Significativas
+- Java 1.0 (1996): Primeira versão oficial, introduziu a JVM.
+- Java 5 (2004): Introduziu Generics, Enums e a estrutura for-each.
+- Java 8 (2014): Adicionou Lambda Expressions, Streams API e a nova API de Data/Hora.
+- Java 11 (2018): Primeiro LTS após o novo ciclo de lançamentos da Oracle, removendo o suporte a JavaFX e Applets.
+- Java 17 (2021): Versão LTS com melhorias de desempenho, padrões de sealed classes e garbage collector ZGC.
+Parte 2 - Ambientes de Desenvolvimento (IDEs)
+
+1. Três IDEs para Desenvolvimento em Java
+VS CODE
+Vantagens: Leve e rapido, consome menos recursos que IDE’S mais avançacas. Possui suporte para Java, integração com GIT e suporte para multiplas linguagens.
+Desvantagens: Não é uma IDE completa e também exige uma configuração inicial
+Apache NetBeans
+Vantagens: Gratuito, fácil de usar, integração com Java EE e Maven.
+Desvantagens: Pode ser mais lento e menos responsivo que IntelliJ e Eclipse.
+
+BlueJ
+Vantagens: Simples e ideal para iniciantes no Java, interface intuitiva.
+Desvantagens: Não é adequado para projetos grandes e profissionais.
+
+Parte 3 - Paradigma de Programação Orientado a Objetos (POO)
+Classe e Objeto
+Uma classe é um modelo que define atributos e métodos, enquanto um objeto é uma instância dessa classe.
+Encapsulamento
+O encapsulamento protege os atributos de uma classe usando modificadores de acesso.
+Herança
+A herança permite que uma classe herde atributos e métodos de outra.
+Polimorfismo
+O polimorfismo permite que um método tenha diferentes comportamentos dependendo da classe que o implementa.
+Parte 4 - Mercado de Trabalho para Desenvolvedores Java
+1. Salário Médio no Brasil
+Os salários médios de desenvolvedores Java no Brasil são:
+- Júnior: R$ 4.000 - R$ 6.000
+- Pleno: R$ 7.000 - R$ 12.000
+- Sênior: R$ 13.000 - R$ 20.000+
+2. Áreas Onde o Java é Amplamente Utilizado
+- Desenvolvimento Web (Java EE, Spring)
+- Aplicações Mobile (Android)
+- Sistemas Corporativos e Bancários
+- Aplicações para Internet das Coisas (IoT)
+- Ciência de Dados e Inteligência Artificial
+3. Tecnologias e Frameworks Mais Exigidos no Mercado
+- Spring Framework
+- Hibernate
+- Maven/Gradle
+- Docker/Kubernetes
+- Microservices
